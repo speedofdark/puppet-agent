@@ -176,3 +176,5 @@ agents.each do |agent|
   end
 end
 
+step 'forced fail to test only-fails'
+fail_test("this is supposed to fail...")
